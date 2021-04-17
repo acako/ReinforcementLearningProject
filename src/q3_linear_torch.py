@@ -141,7 +141,9 @@ class Linear(DQN):
         actions = actions.type(torch.int64)
         ##############################################################
         ##################### YOUR CODE HERE - 3-5 lines #############
-        '''best_target_q = torch.reshape(torch.max(target_q_values, dim=1, keepdim=True).values, (-1,))
+        '''
+        # This is the vanilla DQN Loss function. The uncommented code is the DDQN Loss function
+        best_target_q = torch.reshape(torch.max(target_q_values, dim=1, keepdim=True).values, (-1,))
         Q_samp = rewards + (1 - done_mask) * gamma * best_target_q
         Q_sa = torch.sum(q_values * torch.nn.functional.one_hot(actions, self.env.action_space.n), dim=1)
         loss = torch.nn.functional.mse_loss(Q_samp, Q_sa)'''
