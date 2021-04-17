@@ -5,9 +5,9 @@ This is the repository for CP8319: Reinforcement Learning final project, Winter 
 
 Authors of this project: Albina Cako, Reginald McLean and Bartosz Kosakawski.
 
-In this project, an agent was trained to play Super Mario Kart using Deep Q-Learning (DQN) algorithm (code is not included).
+In this project, an agent was trained to play Super Mario Kart using Deep Q-Learning (DQN) algorithm (code is not included). 
 
-The agent was also trained to play Pong game using Deep Q-Learning and Double Deep Q-Learning (DDQN) algorithms (code is included).
+The agent was also trained to play Pong game using Deep Q-Learning (DQN) and Double Deep Q-Learning (DDQN) algorithms (code is included).
 
 ### Files descriptions:
 
