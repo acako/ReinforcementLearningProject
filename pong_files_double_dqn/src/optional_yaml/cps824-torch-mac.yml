@@ -1,0 +1,14 @@
+name: cps824-torch
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - torchvision
+  - torchaudio
+  - pytorch
+  - matplotlib
+  - gym
+  - tensorboard
+prefix: /Users/nariman/anaconda3/envs/cps824-torch
