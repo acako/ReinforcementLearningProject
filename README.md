@@ -8,7 +8,8 @@ The agent was also trained to play Pong game using Deep Q-Learning and Double De
 
 Files descriptions:
 
-src (code implementation files)
-Reinforcement_Learning_Project_Paper - final paper report describing the project and experiements in detail 
+src: code implementation files
+
+Reinforcement_Learning_Project_Paper: final project report describing the project's experiements and results in detail 
 
 
