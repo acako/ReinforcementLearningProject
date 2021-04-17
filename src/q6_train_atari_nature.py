@@ -24,7 +24,7 @@ os.environ["CUDA_VISIBLE_DEVICES"]="7"
 if __name__ == '__main__':
     # make env
     env = gym.make(config.env_name)
-    #env = retro.make(game="SuperMarioKart-Snes", use_restricted_actions=retro.Actions.DISCRETE)
+    #env = retro.make(game="SuperMarioKart-Snes", use_restricted_actions=retro.Actions.DISCRETE) This line is used for Mario Kart
     env = MaxAndSkipEnv(env, skip=config.skip_frame)
     #env = GrayScaleObservation(env, keep_dim=True)
     env = PreproWrapper(env, prepro=greyscale, shape=(80, 80, 1), 
